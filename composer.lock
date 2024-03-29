@@ -498,16 +498,16 @@
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "2.11.3",
+            "version": "2.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "492725310ae9a1b5b20d6ae09fb5ae6404616e68"
+                "reference": "5418e811a14724068e95e0ba43353b903ada530f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/492725310ae9a1b5b20d6ae09fb5ae6404616e68",
-                "reference": "492725310ae9a1b5b20d6ae09fb5ae6404616e68",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/5418e811a14724068e95e0ba43353b903ada530f",
+                "reference": "5418e811a14724068e95e0ba43353b903ada530f",
                 "shasum": ""
             },
             "require": {
@@ -545,6 +545,7 @@
                 "symfony/property-info": "^5.4 || ^6.0 || ^7.0",
                 "symfony/proxy-manager-bridge": "^5.4 || ^6.0 || ^7.0",
                 "symfony/security-bundle": "^5.4 || ^6.0 || ^7.0",
+                "symfony/stopwatch": "^5.4 || ^6.0 || ^7.0",
                 "symfony/string": "^5.4 || ^6.0 || ^7.0",
                 "symfony/twig-bridge": "^5.4 || ^6.0 || ^7.0",
                 "symfony/validator": "^5.4 || ^6.0 || ^7.0",
@@ -562,7 +563,7 @@
             "type": "symfony-bundle",
             "autoload": {
                 "psr-4": {
-                    "Doctrine\\Bundle\\DoctrineBundle\\": ""
+                    "Doctrine\\Bundle\\DoctrineBundle\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -597,7 +598,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/DoctrineBundle/issues",
-                "source": "https://github.com/doctrine/DoctrineBundle/tree/2.11.3"
+                "source": "https://github.com/doctrine/DoctrineBundle/tree/2.12.0"
             },
             "funding": [
                 {
@@ -613,7 +614,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-10T20:56:20+00:00"
+            "time": "2024-03-19T07:20:37+00:00"
         },
         {
             "name": "doctrine/doctrine-migrations-bundle",
@@ -1141,16 +1142,16 @@
         },
         {
             "name": "doctrine/orm",
-            "version": "2.19.1",
+            "version": "2.19.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/orm.git",
-                "reference": "abcad6fa45768fe8481cf4772c6e20a80c42bf72"
+                "reference": "1a5a4c674a416b4fdf76833c627c5e7f58bbb890"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/orm/zipball/abcad6fa45768fe8481cf4772c6e20a80c42bf72",
-                "reference": "abcad6fa45768fe8481cf4772c6e20a80c42bf72",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/1a5a4c674a416b4fdf76833c627c5e7f58bbb890",
+                "reference": "1a5a4c674a416b4fdf76833c627c5e7f58bbb890",
                 "shasum": ""
             },
             "require": {
@@ -1236,9 +1237,9 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/orm/issues",
-                "source": "https://github.com/doctrine/orm/tree/2.19.1"
+                "source": "https://github.com/doctrine/orm/tree/2.19.3"
             },
-            "time": "2024-03-16T20:23:13+00:00"
+            "time": "2024-03-21T11:01:42+00:00"
         },
         {
             "name": "doctrine/persistence",
@@ -1459,16 +1460,16 @@
         },
         {
             "name": "friendsofphp/proxy-manager-lts",
-            "version": "v1.0.16",
+            "version": "v1.0.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/proxy-manager-lts.git",
-                "reference": "ecadbdc9052e4ad08c60c8a02268712e50427f7c"
+                "reference": "2c8a6cffc3220e99352ad958fe7cf06bf6f7690f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/proxy-manager-lts/zipball/ecadbdc9052e4ad08c60c8a02268712e50427f7c",
-                "reference": "ecadbdc9052e4ad08c60c8a02268712e50427f7c",
+                "url": "https://api.github.com/repos/FriendsOfPHP/proxy-manager-lts/zipball/2c8a6cffc3220e99352ad958fe7cf06bf6f7690f",
+                "reference": "2c8a6cffc3220e99352ad958fe7cf06bf6f7690f",
                 "shasum": ""
             },
             "require": {
@@ -1525,7 +1526,7 @@
             ],
             "support": {
                 "issues": "https://github.com/FriendsOfPHP/proxy-manager-lts/issues",
-                "source": "https://github.com/FriendsOfPHP/proxy-manager-lts/tree/v1.0.16"
+                "source": "https://github.com/FriendsOfPHP/proxy-manager-lts/tree/v1.0.18"
             },
             "funding": [
                 {
@@ -1537,7 +1538,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-24T07:17:17+00:00"
+            "time": "2024-03-20T12:50:41+00:00"
         },
         {
             "name": "fzaninotto/faker",
@@ -1932,16 +1933,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.26.0",
+            "version": "1.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "231e3186624c03d7e7c890ec662b81e6b0405227"
+                "reference": "86e4d5a4b036f8f0be1464522f4c6b584c452757"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/231e3186624c03d7e7c890ec662b81e6b0405227",
-                "reference": "231e3186624c03d7e7c890ec662b81e6b0405227",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/86e4d5a4b036f8f0be1464522f4c6b584c452757",
+                "reference": "86e4d5a4b036f8f0be1464522f4c6b584c452757",
                 "shasum": ""
             },
             "require": {
@@ -1973,9 +1974,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.26.0"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.27.0"
             },
-            "time": "2024-02-23T16:05:55+00:00"
+            "time": "2024-03-21T13:14:53+00:00"
         },
         {
             "name": "psr/cache",
@@ -8601,16 +8602,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.6.17",
+            "version": "9.6.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "1a156980d78a6666721b7e8e8502fe210b587fcd"
+                "reference": "32c2c2d6580b1d8ab3c10b1e9e4dc263cc69bb04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1a156980d78a6666721b7e8e8502fe210b587fcd",
-                "reference": "1a156980d78a6666721b7e8e8502fe210b587fcd",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/32c2c2d6580b1d8ab3c10b1e9e4dc263cc69bb04",
+                "reference": "32c2c2d6580b1d8ab3c10b1e9e4dc263cc69bb04",
                 "shasum": ""
             },
             "require": {
@@ -8684,7 +8685,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.17"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.18"
             },
             "funding": [
                 {
@@ -8700,7 +8701,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-23T13:14:51+00:00"
+            "time": "2024-03-21T12:07:32+00:00"
         },
         {
             "name": "sebastian/cli-parser",

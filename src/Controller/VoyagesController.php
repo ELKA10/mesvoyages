@@ -10,7 +10,7 @@ use Symfony\Component\Routing\Annotation\Route;
 /**
  * Description of VoyagesConrtoller
  *
- * @author elkam
+ * @author emds
  */
 class VoyagesController extends AbstractController{
 
@@ -19,7 +19,7 @@ class VoyagesController extends AbstractController{
      * @var VisiteRepository
      */
     private $repository;
-
+    
     /**
      * 
      * @param VisiteRepository $repository
@@ -27,7 +27,7 @@ class VoyagesController extends AbstractController{
     public function __construct(VisiteRepository $repository) {
         $this->repository = $repository;
     }
-
+    
     /**
      * @Route("/voyages", name="voyages")
      * @return Response
@@ -40,33 +40,32 @@ class VoyagesController extends AbstractController{
     }
     
     /**
-     * @Route ("/voyages/tri/{champ}/{ordre}", name="voyages.sort")
+     * @Route("/voyages/tri/{champ}/{ordre}", name="voyages.sort")
      * @param type $champ
      * @param type $ordre
      * @return Response
      */
-    public function sort($champ, $ordre):Response
-    {
+    public function sort($champ, $ordre): Response{
         $visites = $this->repository->findAllOrderBy($champ, $ordre);
         return $this->render("pages/voyages.html.twig", [
-            'visites'=>$visites
+            'visites' => $visites
         ]);
     }
     
     /**
-     * @Route ("/voyages/recherche/{champ}", name="voyages.findallequal")
+     * @Route("/voyages/recherche/{champ}", name="voyages.findallequal")
      * @param type $champ
-     * @param Request $Request
+     * @param Request $request
      * @return Response
      */
-    public function findAllEqual($champ, Request $request): Response 
-    {
+    public function findAllEqual($champ, Request $request): Response{
         $valeur = $request->get("recherche");
         $visites = $this->repository->findByEqualValue($champ, $valeur);
         return $this->render("pages/voyages.html.twig", [
             'visites' => $visites
         ]);
     }
+    
     /**
      * @Route("/voyages/voyage/{id}", name="voyages.showone")
      * @param type $id
@@ -78,5 +77,4 @@ class VoyagesController extends AbstractController{
             'visite' => $visite
         ]);
     }
-
 }

@@ -17,8 +17,13 @@ services:
         resource: '../src/'
         exclude:
             - '../src/DependencyInjection/'
-            - '../src/Entity/'
             - '../src/Kernel.php'
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+    # Define Visite entity as a service
+    App\Entity\Visite:
+        public: true
+        autowire: true
+        autoconfigure: true
