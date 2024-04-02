@@ -27,3 +27,4 @@ services:
         public: true
         autowire: true
         autoconfigure: true
+        
